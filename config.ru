@@ -3,7 +3,8 @@ require 'rubygems'
 require 'bundler/setup'
 require 'grape'
 require './app/core'
-require './app/api/notes'
+
+use ActiveRecord::ConnectionAdapters::ConnectionManagement
 
 run Notes
 
