@@ -14,4 +14,5 @@
     <li>$ <strong>foreman start</strong></li>
     <li>checkout: <strong>http://localhost:5000/swagger-ui</strong></li>
     <li>$ <strong>bundle exec rake -T</strong></li>
+    <li>checkout CRUD ability with swagger / curl / Postman</li>
 </ul>
